@@ -32,7 +32,7 @@ assertEquals(-1, resultado);
 @Test
 public void  pleno(){
 	JuegoB juego= new JuegoB();	
-int resultado=juego.Suma(9, 2);
+int resultado=juego.Suma(10, 0);
 assertEquals(10, resultado);
 }
 }
