@@ -38,17 +38,17 @@ assertEquals(10, resultado);
 
 @Test
 public void totalmax(){
-
-	
-	
-	
-	
-	
-	
-	int resultado=300;
+    int resultado=300;
 	assertEquals(300, resultado);
 }
 
+@Test
+public void sumaFrame(){
+	JuegoB juego= new JuegoB();	
+	int resultado=juego.SUMAFRAME(1,2,3,4,5,6,7,8,9,10);
+	assertEquals(0, resultado);
+
+}
 }
 
 
