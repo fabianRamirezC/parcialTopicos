@@ -45,8 +45,8 @@ public void totalmax(){
 @Test
 public void sumaFrame(){
 	JuegoB juego= new JuegoB();	
-	int resultado=juego.SUMAFRAME(1,2,3,4,5,6,7,8,9,10);
-	assertEquals(0, resultado);
+	int resultado=juego.SUMAFRAME(1,2,3,4,5,6,7,8,9,9);
+	assertEquals(54, resultado);
 
 }
 }
