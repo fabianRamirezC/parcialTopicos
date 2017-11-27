@@ -26,8 +26,8 @@ public void testMayor19(){
 public void testPositivo(){
 
 	JuegoB juego= new JuegoB();	
-int resultado=juego.Suma(-1, 0);
-assertEquals(-1, resultado);
+int resultado=juego.Suma(1, 0);
+assertEquals(1, resultado);
 }
 @Test
 public void  pleno(){
@@ -39,9 +39,16 @@ assertEquals(10, resultado);
 @Test
 public void totalmax(){
 
+	
+	
+	
+	
+	
+	
 	int resultado=300;
 	assertEquals(300, resultado);
 }
+
 }
 
 
