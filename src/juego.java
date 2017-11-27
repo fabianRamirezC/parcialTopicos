@@ -35,6 +35,14 @@ public void  pleno(){
 int resultado=juego.Suma(10, 0);
 assertEquals(10, resultado);
 }
+
+@Test
+public void totalmax(){
+
+	int resultado=200;
+	assertEquals(300, resultado);
 }
+}
+
 
 
