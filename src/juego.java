@@ -29,6 +29,12 @@ public void testPositivo(){
 int resultado=juego.Suma(-1, 0);
 assertEquals(-1, resultado);
 }
+@Test
+public void  pleno(){
+	JuegoB juego= new JuegoB();	
+int resultado=juego.Suma(9, 2);
+assertEquals(10, resultado);
+}
 }
 
 
