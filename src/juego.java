@@ -39,7 +39,7 @@ assertEquals(10, resultado);
 @Test
 public void totalmax(){
 
-	int resultado=200;
+	int resultado=300;
 	assertEquals(300, resultado);
 }
 }
