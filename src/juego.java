@@ -16,5 +16,12 @@ public class juego {
 		int resultado =juego.Suma(3,5);
 		assertEquals(8, resultado);
 		}
+@Test 
+public void testMayor10(){
+	JuegoB juego= new JuegoB();	
+	int resultado =  juego.Mayor(1,10);
+	assertEquals(11, resultado);
 
 }
+}
+
