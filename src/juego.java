@@ -26,7 +26,7 @@ public void testMayor19(){
 public void testPositivo(){
 
 	JuegoB juego= new JuegoB();	
-int resultado=juego.Suma(1, 0);
+int resultado=juego.Suma(-1, 0);
 assertEquals(-1, resultado);
 }
 }
