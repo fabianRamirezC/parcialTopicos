@@ -13,8 +13,8 @@ public class juego {
 	public void testSUma() {
 		JuegoB juego= new JuegoB();	
 		
-		int resultado =juego.Suma(1,1);
-		assertEquals(2, resultado);
+		int resultado =juego.Suma(3,5);
+		assertEquals(8, resultado);
 		}
 
 }
